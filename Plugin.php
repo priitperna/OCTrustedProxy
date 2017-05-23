@@ -1,6 +1,6 @@
 <?php
 
-namespace JoelESvensson\OcTrustedProxy;
+namespace DT\OCTrustedProxy;
 
 use Fideloper\Proxy\TrustProxies;
 use Illuminate\Contracts\Http\Kernel;
@@ -18,7 +18,7 @@ class Plugin extends PluginBase
         return array(
             'name'        => 'Trusted Proxy',
             'description' => '',
-            'author'      => 'Joel E. Svensson',
+            'author'      => 'Priit Perna',
             'icon'        => 'icon-server',
             'homepage'    => ''
         );
